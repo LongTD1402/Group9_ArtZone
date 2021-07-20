@@ -1,0 +1,164 @@
+
+
+.card {
+    margin: auto;
+    width: 80%;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    border: transparent;
+}
+
+@media(max-width:767px) {
+    .card {
+        margin: 3vh auto
+    }
+}
+
+.cart {
+    background-color: #fff;
+    padding: 4vh 5vh;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+@media(max-width:767px) {
+    .cart {
+        padding: 4vh;
+        border-bottom-left-radius: unset;
+        border-top-right-radius: 5px
+    }
+}
+
+.card .summary {
+    background-color: #b55c5b;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 4vh;
+    color: white;
+}
+
+@media(max-width:767px) {
+    .summary {
+        border-top-right-radius: unset;
+        border-bottom-left-radius: 5px
+    }
+}
+
+.summary .col-2 {
+    padding: 0
+}
+
+.summary .col-10 {
+    padding: 0
+}
+
+.card .row {
+    margin: 0
+}
+
+.card .title b {
+    font-size: 1.5rem
+}
+
+.main {
+    margin: 0;
+    padding: 2vh 0;
+    width: 100%
+}
+
+.card .col-2,
+.card .col {
+    padding: 0 1vh
+}
+
+.card a {
+    padding: 0 1vh
+}
+
+.card .close {
+    margin-left: auto;
+    font-size: 0.7rem
+}
+
+.card img {
+    width: 3.5rem
+}
+
+.card .back-to-shop {
+    margin-top: 4.5rem
+}
+
+.card h5 {
+    margin-top: 4vh
+}
+
+.card hr {
+    margin-top: 1.25rem
+}
+
+.card form {
+    padding: 2vh 0
+}
+
+.card select {
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    padding: 1.5vh 1vh;
+    margin-bottom: 4vh;
+    outline: none;
+    width: 100%;
+    background-color: rgb(247, 247, 247)
+}
+
+.card input {
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    padding: 1vh;
+    margin-bottom: 4vh;
+    outline: none;
+    width: 100%;
+    background-color: rgb(247, 247, 247)
+}
+
+.card input:focus::-webkit-input-placeholder {
+    color: transparent
+}
+
+.card .btn {
+    background-color: #000;
+    border-color: #000;
+    color: white;
+    width: 100%;
+    font-size: 0.7rem;
+    margin-top: 4vh;
+    padding: 1vh;
+    border-radius: 0
+}
+
+.card .btn:focus {
+    box-shadow: none;
+    outline: none;
+    box-shadow: none;
+    color: white;
+    -webkit-box-shadow: none;
+    -webkit-user-select: none;
+    transition: none
+}
+
+.card .btn:hover {
+    color: white
+}
+
+.card a {
+    color: black
+}
+
+.card a:hover {
+    color: black;
+    text-decoration: none
+}
+
+.card #code {
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.253), rgba(255, 255, 255, 0.185)), url("https://img.icons8.com/small/16/000000/long-arrow-right.png");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: center
+}
